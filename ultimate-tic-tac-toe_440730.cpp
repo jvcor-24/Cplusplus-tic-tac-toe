@@ -281,7 +281,7 @@ const char reset[13][25]=	//reference array for new game, same as normal[][]
 /********************************************************************************************************************************************************************************************************/
 //COMMON FUNCTIONS
 
-void color(int ForgC)		//credits to Sir Joed for this function
+void color(int ForgC)		//credits to Sir J**d for this function
 {
 	WORD wColor;
 	HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -400,7 +400,7 @@ void order()				//for randomising player turn
 /****************************************************************************************************/
 //function only for CLASSIC but needs to be defined already for win_message()
 
-void print_game()			//prints the current state of the game table, c/o Jiego Custodio for teaching me this
+void print_game()			//prints the current state of the game table, c/o J**o C**o for teaching me this
 {
 	{color(8); cout<<"\n\tInput 9342 to exit the current game.\n\n";}
 	for(int j=0; j<=12; j++)
@@ -612,7 +612,7 @@ void computer_think()		//main logic of computer
 	//for random boards, computer tries to mark corners first 
 	else if (a=='1'||c=='3'||g=='7'||i=='9')
 	{
-		srand((unsigned)time(0)); 
+		srand((unsigned)time(0)); ustodi
 		valid=0;
 		while (valid==0)
 		{	
